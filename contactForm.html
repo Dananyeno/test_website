@@ -35,7 +35,13 @@
             outline: 3px dashed #2563eb;
             outline-offset: 4px;
         }
-
+        .title-header{
+         position: relative;
+         align-items: center;
+         background-color: #0f172a;
+         text-align: center;
+         color: #ffffff;
+        }
         /* --- HERO CONTAINER --- */
         .hero {
             position: relative;
@@ -159,8 +165,9 @@
 </head>
 <body>
   <section class="hero">
-    <h1 class="hero-title">Contact Us</h1>
-  
+    <div class="title-header">
+    <h1>Contact Us</h1>
+    </div>
   <form id="contactForm">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
