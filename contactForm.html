@@ -158,7 +158,8 @@
   </nav>
 </head>
 <body>
-  <h1>Contact Us</h1>
+  <section class="hero">
+    <h1>Contact Us</h1>
   
   <form id="contactForm">
     <label for="name">Name:</label><br>
@@ -172,6 +173,7 @@
     
     <button type="submit">Send</button>
   </form>
+  </section>
  <script>
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     let name = document.getElementById("name").value.trim();
